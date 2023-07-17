@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+}
+
+#login{
+    width: 300px;
+    height: 175px;
+    border-radius: 25px;
+    border: 2px solid #6ba06b;
+    margin: auto;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 35px;
+    top: 55px;
+}
+
+.formLogin{
+    width: 180px;
+    height: 2.3em;
+    border-radius: 10px;
+    border: 2px solid #6ba06b;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+.formLoginBtn{
+    width: 180px;
+    height: 2.3em;
+    border-radius: 10px;
+    border: 2px solid #6ba06b;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    background-color: #6ba06b;
+    color: aliceblue;
+}
+
+#cabecalhoPg{
+    width: 96%;
+    height: 100px;
+    border: 2px solid #6ba06b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    background-color:#C0ECFF;
+    padding-top: 9px;
+    padding-left: 25px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+#conteudoPg{
+    width: 96%;
+    height: 100px;
+    margin: auto;
+}
+#conteudoPg #exibeFormGerenciar{
+    width: 30%;
+    min-height: 610px;
+    border: 2px solid #6ba06b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    background-color:aliceblue;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    float: left;
+}
+
+#conteudoPg #exibeImagens{
+    width: 62%;
+    min-height: 370px;
+    border: 2px solid #6ba06b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    background-color:aliceblue;
+    padding-top: 30px;
+    padding-left: 8px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    float: left;
+}
+
+#album{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 2px solid #6ba06b;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    background-color:aliceblue;
+    padding-top: 30px;
+}
+
+#album #imgMiniaturas{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+#album #showImg{
+    width: 100%;
+    height: 460px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+.tabelaAdm{
+    margin: auto;
+    width: 95%;
+    border: #6ba06b 1px solid;
+}
+
+.tabelaAdmTh{
+    border: #6ba06b 1px solid;
+    background-color: #6ba06b;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 0px 7px 0px;
+}
+
+.tabelaAdmTd{
+    border: #6ba06b 1px solid;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 0px 7px 0px;
+    text-align: center;
+}
+
+.txtPreco{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+.imgTabela{
+    width: 100px;
+}
+
+.imgTabelaAdm{
+    width: 70px;
+}
+
+
+
+.footer{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer img{
+    width: 100px;
+}
+
+.footer .redesSociais{
+    width: 250px;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer .redesSociais .redes a ion-icon{
+    font-size: 32px;
+    color: black;
+}
